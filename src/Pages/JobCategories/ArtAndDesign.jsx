@@ -2,10 +2,12 @@ import React from 'react'
 import './jobCategories.css';
 import { database, project, uiux, seniorDesigner, seniorUIUXDesigner } from '../../assets/index'
 import CatCard from '../../components/Category/catCard/CatCard';
+import { Footer, Navbar } from '../../components';
 
 const ArtAndDesign = () => {
   return (
     <div>
+      <Navbar />
       {/* Hero Section */}
       <section className="category-hero-section w-full md:h-[40vh]">
         <div className="relative flex flex-col items-center justify-center h-full text-center px-5 md:px-64 py-24 bg-[rgba(248,249,254,0.8)]">
@@ -41,7 +43,7 @@ const ArtAndDesign = () => {
       {/* Next Category Section */}
       <section className='px-5 md:px-64 relative mb-20'></section>
       {/* End of Next Category Section */}
-
+      <Footer />
     </div>
   )
 }

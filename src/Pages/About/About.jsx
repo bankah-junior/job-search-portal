@@ -3,10 +3,12 @@ import './about.css'
 import { Link } from 'react-router-dom'
 import { about, account, save, jobs, bluearrow } from "../../assets/index";
 import { IconCard, Slider, Title } from '../../components/About';
+import { Footer, Navbar } from '../../components';
 
 const About = () => {
   return (
     <div>
+      <Navbar />
       {/* Section 1 */}
       <section className="section1 w-full md:h-screen">
         <div className="relative flex flex-col items-center justify-center h-full text-center px-5 md:px-64 py-24 bg-[rgba(248,249,254,0.8)]">
@@ -90,6 +92,7 @@ const About = () => {
         </div>  
       </section>
       {/* End of Section 4 */}
+      <Footer />
     </div>
   )
 }

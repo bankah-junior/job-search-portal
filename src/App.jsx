@@ -17,7 +17,7 @@ function App() {
          <Route path='/contact' element={<Contact/>} />
          <Route path='/jobs' element={<Jobs/>} />
          <Route path='/jobs/categorie' element={<JobCategorie/>} />
-         <Route path='/jobs/categorie/artsanddesid' element={<ArtAndDesign />} />
+         <Route path='/jobs/categorie/artanddesign' element={<ArtAndDesign />} />
          <Route path='/jobs/:categorie' element={<JobCategorie/>} />
          <Route path='/post' element={<JobPost/>} />
          <Route path='/job/:id' element={<JobDetail/>} />

@@ -9,7 +9,7 @@ const Catdropdown = ({isOpen}) => {
 
       {isOpen && (
         <div className="absolute top-3 w-[230px] px-6 py-3 bg-white shadow-md z-10 rounded-md">
-          <Link to='/'><p className='font-semibold hover:text-blue my-2'>Art & Design</p></Link>
+          <Link to='/jobs/categorie/artanddesign'><p className='font-semibold hover:text-blue my-2'>Art & Design</p></Link>
           <Link to='/'><p className='font-semibold hover:text-blue my-2'>Health & Fitness</p></Link>
           <Link to='/'><p className='font-semibold hover:text-blue my-2'>Finance & Business</p></Link>
           <Link to='/'><p className='font-semibold hover:text-blue my-2'>Art & Music</p></Link>
